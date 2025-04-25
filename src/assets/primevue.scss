@@ -1,0 +1,59 @@
+.p-card {
+    border: 1px solid #dedede;
+    overflow: hidden;
+}
+
+.p-inputtext,
+.p-select,
+.p-datepicker,
+.p-inputnumber, .p-multiselect {
+
+    width: 100% !important;
+}
+
+.p-button{
+    white-space: nowrap;
+    text-wrap: nowrap;
+}
+
+.p-paginator-content {
+    .p-select {
+        width: auto !important;
+    }
+}
+
+
+.p-textarea {
+    width: 100% !important;
+}
+
+.p-breadcrumb-item-link {
+    gap: 0 !important
+}
+
+.p-card-body {
+    padding: 0 1rem !important;
+    gap: 0 !important;
+
+}
+
+.p-button {
+    padding: .35rem .7rem !important;
+    font-size: .875rem !important;
+}
+
+
+td,
+th {
+    white-space: nowrap !important;
+}
+
+
+.p-chip {
+    padding: .3rem 1rem !important;
+}
+
+.p-breadcrumb {
+    padding: 0 !important;
+    background-color: transparent !important;
+}
