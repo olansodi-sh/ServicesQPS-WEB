@@ -74,6 +74,7 @@ const loadOptions = async () => {
         UsersServices.getUsers(undefined, 50),
     ]);
 
+    console.log('cleaners', cleanerResults);
     communities.value = communityResults.data;
     statuses.value = statusResults;
     extras.value = extrasResults;

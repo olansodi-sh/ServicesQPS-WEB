@@ -15,6 +15,7 @@ export class UsersServices {
 
         try {
             const { data } = await apiServicesQps.get(`/users?page=${page}&take=${take}`)
+            console.log('data', data)
             return data
         } catch (error) {
             return {
